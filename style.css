@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: fit-content;
+    position: relative;
+    min-height: 100vh;
+    width: 1200px;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+
+    iframe {
+        width: 1200px;
+        transform: translateX(25%);
+        border: none;
+    }
+}
